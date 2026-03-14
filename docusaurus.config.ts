@@ -7,8 +7,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   // 基础配置
-  title: 'DMTR', // 网站标题（显示在浏览器标签页和网站头部）
-  tagline: '专注于minecraft JAVA Edition for Android的启动器文档', // 网站标语（通常显示在首页的副标题位置）
+  title: '柠枺文档', // 网站标题（显示在浏览器标签页和网站头部）
+  tagline: '专注于 Minecraft Java Edition for Android 的启动器文档', // 网站标语（通常显示在首页的副标题位置）
   favicon: 'img/favicon.ico', // 浏览器标签页图标
 
   // 部署配置
@@ -65,12 +65,12 @@ const config: Config = {
 
   // 主题配置
   themeConfig: {
-    image: 'img/logo.jpg', // 社交媒体分享卡片图片
+    image: 'img/logo.svg', // 社交媒体分享卡片图片
     navbar: { // 导航栏配置
-      title: 'DMTR', // 导航栏标题
+      title: '柠枺文档', // 导航栏标题
       logo: {
-        alt: 'My Site Logo', // logo的alt文本（无障碍访问需要）
-        src: 'img/logo.png', // logo图片路径
+        alt: '柠枺文档', // logo的alt文本（无障碍访问需要）
+        src: 'img/logo.svg', // logo图片路径
       },
       items: [ // 导航项配置
         {
@@ -91,7 +91,7 @@ const config: Config = {
       style: 'dark',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
         href: '/',
         width: 60,
         height: 60,
@@ -101,9 +101,9 @@ const config: Config = {
           title: '文档',
           items: [
             { label: '快速开始', to: '/docs/intro' },
-            { label: 'fcl启动器', to: '/docs/fcl' },
-            { label: '插件', to: '/docs/plugins' },
-            { label: 'vulkan', to: '/docs/vulkan' },
+            { label: 'FCL 启动器', to: '/docs/fcl/intro' },
+            { label: '插件', to: '/docs/plugins/plugins' },
+            { label: 'Vulkan', to: '/docs/vulkan/Vulkanmod' },
           ],
         },
         {
