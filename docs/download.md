@@ -4,15 +4,6 @@ title: 下载
 ---
 
 # 下载
-
-## 版本信息
-
-| 启动器 | 最新版本 | 发布日期 |
-|--------|----------|----------|
-| FCL | 1.2.9.1 | 2026-03-13 |
-| ZL1 | 1.4.1.2 | 2025-12-18 |
-| ZL2 | 2.1.3 | 2026-03-09 |
-
 ## 下载启动器
 
 ### FCL (Fold Craft Launcher)
@@ -40,5 +31,5 @@ title: 下载
   MT管理器不只是文件管理器，它的功能太强大了。
 - [shizuku](https://mirror.lemwood.icu/download/shizuku/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk)  
   仅次于 root 的安卓 ADB 工具，配合 MT 管理器食用更佳。[官网地址](https://shizuku.rikka.app/zh-hans/)
-- [[DH]遥远的地平线手机专用补丁版](https://dh.lemwood.cn)  
+- [[DH]遥远的地平线手机专用补丁版（网站不再维护）](https://dh.lemwood.cn)  
   自动注入 libzstd-jni 手机版补丁，支持 aarch64 架构，为手机端 Minecraft 提供完美支持，还有自带翻译支持。

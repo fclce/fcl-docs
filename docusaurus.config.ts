@@ -7,9 +7,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   // 基础配置
-  title: '柠枺文档', // 网站标题（显示在浏览器标签页和网站头部）
+  title: 'FCL_CE教程', // 网站标题（显示在浏览器标签页和网站头部）
   tagline: '专注于 Minecraft Java Edition for Android 的启动器文档', // 网站标语（通常显示在首页的副标题位置）
-  favicon: 'img/favicon.ico', // 浏览器标签页图标
+  favicon: 'img/favicon.png', // 浏览器标签页图标
 
   // 部署配置
   url: 'https://docs.lemwood.cn', // 生产环境访问地址
@@ -65,12 +65,12 @@ const config: Config = {
 
   // 主题配置
   themeConfig: {
-    image: 'img/logo.svg', // 社交媒体分享卡片图片
+    image: 'img/favicon.png', // 社交媒体分享卡片图片
     navbar: { // 导航栏配置
-      title: '柠枺文档', // 导航栏标题
+      title: 'FCL_CE教程', // 导航栏标题
       logo: {
-        alt: '柠枺文档', // logo的alt文本（无障碍访问需要）
-        src: 'img/logo.svg', // logo图片路径
+        alt: 'FCL_CE教程', // logo的alt文本（无障碍访问需要）
+        src: 'img/favicon.png', // logo图片路径
       },
       items: [ // 导航项配置
         {
@@ -91,7 +91,7 @@ const config: Config = {
       style: 'dark',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.png',
         href: '/',
         width: 60,
         height: 60,
