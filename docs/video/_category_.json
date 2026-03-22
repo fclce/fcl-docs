@@ -1,0 +1,10 @@
+{
+    "position": 4,
+    "label": "视频教程",
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "视频教程" 
+    }
+}
