@@ -21,7 +21,13 @@ const config: Config = {
 
   // 构建配置
   onBrokenLinks: 'warn', // 遇到损坏链接时抛出错误（可选值：ignore | warn | throw）
-  onBrokenMarkdownLinks: 'warn', // 遇到损坏的Markdown链接时警告
+
+  // Markdown 配置
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // 遇到损坏的Markdown链接时警告
+    },
+  },
 
   // 国际化配置
   i18n: {
@@ -100,7 +106,7 @@ const config: Config = {
         {
           title: '文档',
           items: [
-            { label: '快速开始', to: '/docs/intro' },
+            { label: '快速开始', to: '/docs' },
             { label: 'FCL 启动器', to: '/docs/fcl/intro' },
             { label: '插件', to: '/docs/plugins' },
           ],
@@ -115,7 +121,11 @@ const config: Config = {
             {
               label: 'QQ群',
               href: '/docs/qqgroup',
-            }
+            },
+            {
+              label: '博客',
+              href: '/blog',
+            },
           ],
         },
       ],
