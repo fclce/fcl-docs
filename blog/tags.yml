@@ -8,7 +8,7 @@ hello:
   permalink: /hello
   description: 你好标签描述
 
-docusaurus:
+Docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus 标签描述
@@ -17,3 +17,13 @@ hola:
   label: 嗨
   permalink: /hola
   description: 嗨标签描述
+
+FCL:
+  label: FCL
+  permalink: /fcl
+  description: Fold Craft Launcher 相关内容
+
+boat:
+  label: boat
+  permalink: /boat
+  description: boat 渲染器相关内容
