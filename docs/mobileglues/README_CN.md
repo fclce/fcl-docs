@@ -1,6 +1,6 @@
-﻿<!-- markdownlint-disable MD028 MD033 MD041 MD045 -->
+<!-- markdownlint-disable MD028 MD033 MD041 MD045 -->
 
-<img //src="assets/MobileGlues-icon.png" width="128">
+<img src="assets/MobileGlues-icon.png" width="128" />
 
 # MobileGlues
 
